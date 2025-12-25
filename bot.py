@@ -4,7 +4,7 @@ import requests
 
 BASE = "https://api.x.com/2"
 STATE_FILE = "state.json"
-QUERY = "from:InfoBurclar #koçburcu -is:retweet"
+QUERY = "from:InfoBurclar koç -is:retweet"
 
 def load_state():
     if not os.path.exists(STATE_FILE):
